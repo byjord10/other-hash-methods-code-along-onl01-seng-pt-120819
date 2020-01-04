@@ -11,4 +11,5 @@ require 'pry'
 def get_the_keys(groceries)
   groceries. each do |food, data|
     binding.pry
+  end 
 end
