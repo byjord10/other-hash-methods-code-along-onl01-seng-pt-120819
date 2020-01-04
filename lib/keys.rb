@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  groceries. each do |food, data|
+  groceries.keys
     binding.pry
-  end 
+  end
 end
